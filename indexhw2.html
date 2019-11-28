@@ -1,68 +1,59 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Опитування</title>
-	</head>
-	<body bgcolor="c3c3c3">
-		<h1 align="center">Hello new World</h1>
-		<div>
-			<form  enctype="multipart/form-data" method="POST" action="https://formspree.io/mvogzboo">
-				<label>
-					<p><b>Ваші ім'я</b></p>
-					<input type="text" name="Ім'я" placeholder="Ім'я">
-					<input type="text" name="Прізвище" placeholder="Прізвище">
-					<!--<input type="submit" name="Ім'я" >-->	
-					<hr color="grey">				
-				</label>
-				<label>
-					<p><b>Що б хотіли відвідати під час подорожі:</b></p>
-					<p>
-						<input type="checkbox" name="візит" value="Місяць"> Місяць<br>
-						<input type="checkbox" name="візит" value="Плутон"> Плутон<br>
-						<input type="checkbox" name="візит" value="Уран"> Уран<br>
-						<input type="checkbox" name="візит" value="Венера"> Венера<br>
-						<input type="checkbox" name="візит" value="Сонце"> Сонце<br>
-						<!--<input type="submit" name="Ім'я" >-->
-						<hr color="grey">	
-					</p>
-				</label>
-				<label>
-					<p><b>Подайте копію вашого паспорту</b></p>
-					<input type="file" name="copy" >
-					<!--<input type="submit" name="Ім'я" >-->	
-					<hr color="grey">
-
-				</label>
-				<label><b>Ваша стать</b><br>					
-						<input type="radio" name="стать" value="Man"> Чоловіча<br>
-						<input type="radio" name="стать" value="Woman"> Жіноча<br>
-						<input type="radio" name="стать" value="Hard to say"> Важко відповісти<br>						
-						<hr color="grey">					
-				</label>
-				<label>
-					<p><b>Ваш email</b></p>
-					<input type="email" name="email" placeholder="email"><br>
-					<p><b>Пароль до вашого email</b></p>
-					<input type= "password" name = "password" placeholder="password">
-					<p><b>Вибір дати вильоту</b></p>
-					<input type= "date" name = "date" >
-					<p><b>Скільки днів ви б бажали провести за межами Землі</b></p>
-					<input type="range"  min="70" max="1100">
-					<p><b>Ваш номер телефону</b></p>
-					<input type="tel" name="tel">					
-					<hr color="grey">
-				</label>
-				<label>
-					<p><b>Ваші побажання</b></p>
-					<textarea name="text" cols="30" rows="20" placeholder="Ваші побажання" maxlength="100"></textarea><br>
-					
-					<input type="image" name="image" src="img/submit.jpg" height="50" width="150">
-				</label>
-				<hr color="red">
-		</div>
-			
-		
-
-	</body>
+<html lang="uk">
+    <head>
+        <meta charset="utf-8">
+        <title>Опитування</title>
+    </head>
+    <body bgcolor="c3c3c3">
+        <h1 align="center">Hello new World</h1>
+        <div>
+            <form  enctype="multipart/form-data" method="POST" action="https://formspree.io/mvogzboo">
+                <b>Ваші ім'я</b><br/>
+                    <input type="text" name="Ім'я" placeholder="Ім'я">
+                    <input type="text" name="Прізвище" placeholder="Прізвище">                       					
+                    <hr color="grey">	
+                <b>Що б хотіли відвідати під час подорожі:</b><br/>					
+                    <input type="checkbox" name="візит" value="Місяць"> Місяць<br/>
+                    <input type="checkbox" name="візит" value="Плутон"> Плутон<br/>
+                    <input type="checkbox" name="візит" value="Уран"> Уран<br/>
+                    <input type="checkbox" name="візит" value="Венера"> Венера<br/>
+                    <input type="checkbox" name="візит" value="Сонце"> Сонце<br/>                            			
+                    <hr color="grey">
+                <label><b>Подайте копію вашого паспорту</b><br/>
+                    <input type="file" name="copy" >                        
+                </label>
+                    <hr color="grey">
+                <b>Ваша стать</b><br/>					
+                    <input type="radio" name="стать" value="Man"> Чоловіча<br/>
+                    <input type="radio" name="стать" value="Woman"> Жіноча<br/>
+                    <input type="radio" name="стать" value="Hard to say"> Важко відповісти<br/>					
+                    <hr color="grey">
+                <label>
+                    <b>Ваш email</b><br/>
+                    <input type="email" name="email" placeholder="email"><br/>
+                </label>
+                <label>
+                    <b>Пароль до вашого email</b><br/>
+                    <input type= "password" name = "password" placeholder="password"><br/>
+                </label>
+                <label>
+                    <b>Вибір дати вильоту</b><br/>
+                    <input type= "date" name = "date" ><br/>
+                </label>
+                <label>
+                    <b>Скільки днів ви б бажали провести за межами Землі</b><br/>
+                    <input type="range"  min="70" max="1100"><br/>
+                </label>
+                <label>
+                    <b>Ваш номер телефону</b><br/>
+                    <input type="tel" name="tel">
+                </label>					
+                    <hr color="grey">					
+                    <b>Ваші побажання</b><br/>
+                    <textarea name="text" cols="30" rows="20" placeholder="Ваші побажання" maxlength="100"></textarea><br/>					
+                    <input type="image" name="image" src="img/submit.jpg" alt="submit-button" height="50" width="150">				
+                    <hr color="red">
+            </form>
+        </div>
+    </body>
 </html>
